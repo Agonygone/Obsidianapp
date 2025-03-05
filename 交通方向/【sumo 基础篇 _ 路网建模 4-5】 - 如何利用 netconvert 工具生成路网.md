@@ -1,11 +1,4 @@
----
-url: https://zhuanlan.zhihu.com/p/675080889
-title: [sumo 基础篇 | 路网建模 4-5] - 如何利用 netconvert 工具生成路网
-date: 2024-02-27 20:28:36
-tag: 
-banner: "https://pic1.zhimg.com/v2-61bbabcf5e2d5f30585687019111eea4_720w.jpg?source=172ae18b"
-banner_icon: 🔖
----
+
 ## **前言：**
 
 本讲为 [sumo 基础篇路网建模](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkzMzM0MzgwOQ==&action=getalbum&album_id=3199393822406017024&scene=173&subscene=&sessionid=svr_b2df061eb21&enterid=1703597153&from_msgid=&from_itemidx=&count=3&nolastread=1#wechat_redirect)系列课程的最后一讲。通过前面课程的学习，你已掌握如何通过 [xml 定义节点](http://mp.weixin.qq.com/s?__biz=MzkzMzM0MzgwOQ==&mid=2247483880&idx=1&sn=85f0a9f9e06f4aaad61e49a261f80790&chksm=c24ca6c6f53b2fd01e091f5dc412fd354d44b517db2a33207cf1a554f35a86203cef11b1cf13&scene=21#wechat_redirect)（node.xml）、[路段 / 边](http://mp.weixin.qq.com/s?__biz=MzkzMzM0MzgwOQ==&mid=2247483894&idx=1&sn=75dbd1c15d088c44d75537542285dadb&chksm=c24ca6d8f53b2fce29dbc9b92474ae01eae82d66eb94b0e02521cf6988a6537ca0a4a41b8eb2&scene=21#wechat_redirect)（edge.xml）、[车道连接关系](http://mp.weixin.qq.com/s?__biz=MzkzMzM0MzgwOQ==&mid=2247483942&idx=1&sn=c7bef34fa74e3a9dab4b3dadc390fc33&chksm=c24ca508f53b2c1e41f92c3a255ca599bbebb647a0af10a6b15132804f36a3453f5b4d15185f&scene=21#wechat_redirect)（connect.xml）、[路口信号配时](http://mp.weixin.qq.com/s?__biz=MzkzMzM0MzgwOQ==&mid=2247483943&idx=1&sn=d51def19b9ed24e350c47620bcb0d466&chksm=c24ca509f53b2c1fe30ee6cbcb36b7236729777b6c7f63518f572fd69dd2924246c8f56a1ba4&scene=21#wechat_redirect)（tll.xml）等路网基础要素的方法。本讲将教你如何通过 sumo 自带的 netconvert 工具，基于前述的路网基础要素，生成路网拓扑 net.xml 文件。课程中详细的介绍了每一步操作流程，且提供了两个案例的基础数据文件，读者可自行下载学习。
