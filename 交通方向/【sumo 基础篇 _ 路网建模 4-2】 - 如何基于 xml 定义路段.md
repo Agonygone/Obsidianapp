@@ -1,11 +1,4 @@
----
-url: https://zhuanlan.zhihu.com/p/671899872
-title: [sumo 基础篇 | 路网建模 4-2] - 如何基于 xml 定义路段
-date: 2024-02-27 20:24:31
-tag: 
-banner: "https://pic1.zhimg.com/v2-3827ba7fe386bff043d5b882a872664d_720w.jpg?source=172ae18b"
-banner_icon: 🔖
----
+
 ## **前言：**
 
 本讲为如何基于 xml 定义仿真路网的第二个子专题：基于 xml 定义路段，主要介绍了 sumo 路网中什么是路段、定义路段的方法、路段及路段上各车道可定义的参数有哪些、如何定义路段的简单示例。通过本课程的学习，读者可以初步掌握定义路段的方法，为 sumo 路网的构建打下基础。
