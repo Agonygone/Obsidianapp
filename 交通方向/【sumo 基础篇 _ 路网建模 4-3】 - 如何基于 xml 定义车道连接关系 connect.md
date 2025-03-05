@@ -1,11 +1,4 @@
----
-url: https://zhuanlan.zhihu.com/p/673337549
-title: [sumo 基础篇 | 路网建模 4-3] - 如何基于 xml 定义车道连接关系 connect
-date: 2024-02-27 20:26:17
-tag: 
-banner: "https://picx.zhimg.com/v2-9f24fb941fe121d0be22fcceb220342b_720w.jpg?source=172ae18b"
-banner_icon: 🔖
----
+
 ## **前言：**
 
 本讲为如何基于 xml 定义仿真路网的第三个子专题：基于 xml 定义车道连接关系。通过本课程的学习，读者可以全面掌握基于 xml 定义车道连接关系的方法，为 sumo 路网的构建打下基础。
